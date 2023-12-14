@@ -13,7 +13,7 @@ Jeu de combat de Pokemon, 2 dresseurs s'affrontent dans une arène jusqu'à que 
 
 
 ```plantuml
-@staruml
+@startuml
 
 Class Dresseur extends Inventaire, Pokemon implements Arene{
 - nomDresseur : String
