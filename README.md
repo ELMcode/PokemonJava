@@ -1,6 +1,16 @@
 # Application Pokemon en Java
 
+Jeu de combat de Pokemon, 2 dresseurs s'affrontent dans une arène jusqu'à que mort s'en suive !
+
+
+## Prérequis
+
+- **Java 21.0**
+
 ## Diagramme de classes
+
+## Usage
+
 
 ```plantuml
 @staruml
