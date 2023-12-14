@@ -1,82 +1,154 @@
 [
   {
-    "id": 1,
     "name": "Salamèche",
     "type": "Feu",
-    "attack": [
-      "Flammèche",
-      "Griffe"
-    ],
-    "hpMax": 100
+    "hpMax": 100,
+    "attacks": [
+      {
+        "name": "Flammèche",
+        "type": "Feu",
+        "puissanceMin": 5,
+        "puissanceMax": 10
+      },
+      {
+        "name": "Griffe",
+        "type": "Normal",
+        "puissanceMin": 5,
+        "puissanceMax": 10
+      }
+    ]
   },
   {
-    "id": 2,
     "name": "Arcanin",
     "type": "Feu",
-    "attack": [
-      "Flammèche",
-      "Griffe"
-    ],
-    "hpMax": 100
+    "hpMax": 100,
+    "attacks": [
+      {
+        "name": "Flammèche",
+        "type": "Feu",
+        "puissanceMin": 5,
+        "puissanceMax": 10
+      },
+      {
+        "name": "Griffe",
+        "type": "Normal",
+        "puissanceMin": 5,
+        "puissanceMax": 10
+      }
+    ]
   },
   {
-    "id": 3,
     "name": "Carapuce",
     "type": "Eau",
-    "attack": [
-      "Pistolet à eau",
-      "Charge"
-    ],
-    "hpMax": 100
+    "hpMax": 100,
+    "attacks": [
+      {
+        "name": "Pistolet à eau",
+        "type": "Eau",
+        "puissanceMin": 5,
+        "puissanceMax": 10
+      },
+      {
+        "name": "Charge",
+        "type": "Normal",
+        "puissanceMin": 5,
+        "puissanceMax": 10
+      }
+    ]
   },
   {
-    "id": 4,
     "name": "Poissirène",
     "type": "Eau",
-    "attack": [
-      "Pistolet à eau",
-      "Charge"
-    ],
-    "hpMax": 100
+    "hpMax": 100,
+    "attacks": [
+      {
+        "name": "Pistolet à eau",
+        "type": "Eau",
+        "puissanceMin": 5,
+        "puissanceMax": 10
+      },
+      {
+        "name": "Charge",
+        "type": "Normal",
+        "puissanceMin": 5,
+        "puissanceMax": 10
+      }
+    ]
   },
   {
-    "id": 5,
     "name": "Nirondelle",
     "type": "Vol",
-    "attack": [
-      "Tornade",
-      "Charge"
-    ],
-    "hpMax": 100
+    "hpMax": 100,
+    "attacks": [
+      {
+        "name": "Tornade",
+        "type": "Vol",
+        "puissanceMin": 5,
+        "puissanceMax": 10
+      },
+      {
+        "name": "Charge",
+        "type": "Normal",
+        "puissanceMin": 5,
+        "puissanceMax": 10
+      }
+    ]
   },
   {
-    "id": 6,
     "name": "Roucool",
     "type": "Vol",
-    "attack": [
-      "Tornade",
-      "Charge"
-    ],
-    "hpMax": 100
+    "hpMax": 100,
+    "attacks": [
+      {
+        "name": "Tornade",
+        "type": "Vol",
+        "puissanceMin": 5,
+        "puissanceMax": 10
+      },
+      {
+        "name": "Charge",
+        "type": "Normal",
+        "puissanceMin": 5,
+        "puissanceMax": 10
+      }
+    ]
   },
   {
-    "id": 7,
     "name": "Alex",
     "type": "Codeur",
-    "attack": [
-      "UML",
-      "Tentacule"
-    ],
-    "hpMax": 150
+    "hpMax": 150,
+    "attacks": [
+      {
+        "name": "UML",
+        "type": "Codeur",
+        "puissanceMin": 20,
+        "puissanceMax": 25
+      },
+      {
+        "name": "Tentacule",
+        "type": "Normal",
+        "puissanceMin": 20,
+        "puissanceMax": 25
+      }
+    ]
   },
   {
-    "id": 8,
     "name": "Titouan",
     "type": "Codeur",
-    "attack": [
-      "Error404",
-      "MalDeTete"
-    ],
-    "hpMax": 1
+    "hpMax": 1,
+    "attacks": [
+      {
+        "name": "Error404",
+        "type": "Codeur",
+        "puissanceMin": 0,
+        "puissanceMax": 2
+      },
+      {
+        "name": "MalDeTete",
+        "type": "Normal",
+        "puissanceMin": 0,
+        "puissanceMax": 1
+      }
+    ]
   }
 ]
