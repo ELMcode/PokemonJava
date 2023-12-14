@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Salamèche",
+    "type": "Feu",
+    "attack": [
+      "Flammèche",
+      "Griffe"
+    ],
+    "hpMax": 100
+  },
+  {
+    "id": 2,
+    "name": "Arcanin",
+    "type": "Feu",
+    "attack": [
+      "Flammèche",
+      "Griffe"
+    ],
+    "hpMax": 100
+  },
+  {
+    "id": 3,
+    "name": "Carapuce",
+    "type": "Eau",
+    "attack": [
+      "Pistolet à eau",
+      "Charge"
+    ],
+    "hpMax": 100
+  },
+  {
+    "id": 4,
+    "name": "Poissirène",
+    "type": "Eau",
+    "attack": [
+      "Pistolet à eau",
+      "Charge"
+    ],
+    "hpMax": 100
+  },
+  {
+    "id": 5,
+    "name": "Nirondelle",
+    "type": "Vol",
+    "attack": [
+      "Tornade",
+      "Charge"
+    ],
+    "hpMax": 100
+  },
+  {
+    "id": 6,
+    "name": "Roucool",
+    "type": "Vol",
+    "attack": [
+      "Tornade",
+      "Charge"
+    ],
+    "hpMax": 100
+  },
+  {
+    "id": 7,
+    "name": "Alex",
+    "type": "Codeur",
+    "attack": [
+      "UML",
+      "Tentacule"
+    ],
+    "hpMax": 150
+  },
+  {
+    "id": 8,
+    "name": "Titouan",
+    "type": "Codeur",
+    "attack": [
+      "Error404",
+      "MalDeTete"
+    ],
+    "hpMax": 1
+  }
+]
