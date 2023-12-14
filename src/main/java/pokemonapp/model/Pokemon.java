@@ -1,15 +1,12 @@
 package pokemonapp.model;
 
-public class Pokemon implements Type, Attaque {
+public class Pokemon extends Attaque {
     private String nom;
     private int hpMax;
     private int hpRestant;
 
-    public Pokemon(String nom, int hpMax, int hpNow) {
-        super();
-        this.nom = nom;
-        this.hpMax = hpMax;
-        this.hpRestant = hpNow;
+    public Pokemon(String feu, String vol, String eau, String codeur) {
+        super(feu, vol, eau, codeur);
     }
 
     public String getNom() {

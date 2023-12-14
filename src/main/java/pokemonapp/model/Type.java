@@ -1,10 +1,10 @@
 package pokemonapp.model;
 
-public abstract class Type {
-    private  String feu;
-    private String vol;
-    private String eau;
-    private String codeur;
+public class Type {
+    public String feu;
+    public String vol;
+    public String eau;
+    public String codeur;
 
     public Type(String feu, String vol, String eau, String codeur) {
         this.feu = feu;

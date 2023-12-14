@@ -1,15 +1,14 @@
 package pokemonapp.model;
 
-public  class Attaque {
+public class Attaque extends Type{
     private String nom;
     private int puissanceMax;
     private int puissanceMin;
 
-    public Attaque(String nom, int puissanceMax, int puissanceMin) {
-        this.nom = nom;
-        this.puissanceMax = puissanceMax;
-        this.puissanceMin = puissanceMin;
+    public Attaque(String feu, String vol, String eau, String codeur) {
+        super(feu, vol, eau, codeur);
     }
+
 
     public String getNom() {
         return nom;
