@@ -8,7 +8,7 @@ public class Inventaire {
     private int nbPokemon;
     private int nbPokeball;
 
-    List<Pokemon> pokemonsInventaire = new ArrayList<>();
+    private  List<Pokemon> pokemonsInventaire;
 
     public Inventaire(int nbPokemon, int nbPokeball, List<Pokemon> pokemonsInventaire) {
         this.nbPokemon = nbPokemon;
