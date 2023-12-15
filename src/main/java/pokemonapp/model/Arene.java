@@ -1,8 +1,10 @@
 package pokemonapp.model;
 
 public interface Arene {
+    void debuterCombat();
 
-    public void debuterCombat();
-    public void tourParTour();
-    public void terminerCombat();
+    void tourParTour();
+
+    void terminerCombat();
 }
+
