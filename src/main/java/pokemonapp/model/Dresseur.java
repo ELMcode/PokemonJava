@@ -49,7 +49,7 @@ class Dresseur implements Arene {
     }
 
     /**
-     * getRandPokemon select 3 pokemons at random from the complete list, before starting the fight
+     * getRandPokemon selectionne 3 pokemons au hasard de la liste complète, avant de commencer le combat
      * @throws Exception
      */
     public void getRandomPokemon() throws  Exception {
