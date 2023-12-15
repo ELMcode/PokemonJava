@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
 import java.util.List;
-class Dresseur implements Arene {
+public class Dresseur implements Arene {
 
     private String nom;
 
