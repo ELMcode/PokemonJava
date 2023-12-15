@@ -11,6 +11,12 @@ Jeu de combat de Pokemon, 2 dresseurs s'affrontent dans une arène jusqu'à que 
 
 ## Usage
 
+## Contributions
+
+- Amine :busts_in_silhouette:
+- Justine :busts_in_silhouette:
+- Gaëtan :busts_in_silhouette:
+
 
 ```plantuml
 @startuml
@@ -61,6 +67,9 @@ Class Inventaire {
 - nbPokeball : int
 + voirHpRestantPokemons : public
 }
+
+Dresseur o-- Pokemon
+Dresseur o-- Inventaire
 
 @enduml
 ```
