@@ -1,6 +1,10 @@
 package pokemonapp.model;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class Dresseur implements Arene {
+import java.io.File;
+import java.util.List;
+class Dresseur implements Arene {
 
     private String nom;
 
@@ -44,8 +48,12 @@ public class Dresseur implements Arene {
 
     }
 
-    public void getPokemon(){
+    public void getRandomPokemon() throws  Exception {
 
+        ObjectMapper mapper = new ObjectMapper();
+        List<Pokemon> allPokemons = mapper.readValue(new File("../data/Pokemons.json"), new TypeReference<List<Pokemon>>(){});
+
+        System.out.println(allPokemons);
     }
 
     public void changerPokemonPendantCombat(){
