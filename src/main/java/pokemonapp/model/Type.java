@@ -1,47 +1,30 @@
 package pokemonapp.model;
 
 public class Type {
-    public String feu;
-    public String vol;
-    public String eau;
-    public String codeur;
+    private String nom;
 
-    public Type(String feu, String vol, String eau, String codeur) {
-        this.feu = feu;
-        this.vol = vol;
-        this.eau = eau;
-        this.codeur = codeur;
+    public Type(String nom) {
+        this.nom = nom;
     }
 
-    public String getFeu() {
-        return feu;
+    public String getNom() {
+        return nom;
     }
 
-    public void setFeu(String feu) {
-        this.feu = feu;
+    public void setNom(String nom) {
+        this.nom = nom;
     }
 
-    public String getVol() {
-        return vol;
-    }
+    public void comportementFeu(){
 
-    public void setVol(String vol) {
-        this.vol = vol;
     }
+    public void comportementVol(){
 
-    public String getEau() {
-        return eau;
     }
+    public void comportementEau(){
 
-    public void setEau(String eau) {
-        this.eau = eau;
     }
+    public void comportementCodeur(){
 
-    public String getCodeur() {
-        return codeur;
-    }
-
-    public void setCodeur(String codeur) {
-        this.codeur = codeur;
     }
 }
