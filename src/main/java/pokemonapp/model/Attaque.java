@@ -5,15 +5,23 @@ public class Attaque extends Type{
     private int puissanceMax;
     private int puissanceMin;
 
-    public Attaque(String feu, String vol, String eau, String codeur) {
-        super(feu, vol, eau, codeur);
+    public Attaque(String nom,
+                   String nomAttaque,
+                   int puissanceMax,
+                   int puissanceMin
+    ) {
+        super(nom);
+        this.nom = nomAttaque;
+        this.puissanceMax = puissanceMax;
+        this.puissanceMin = puissanceMin;
     }
 
-
+    @Override
     public String getNom() {
         return nom;
     }
 
+    @Override
     public void setNom(String nom) {
         this.nom = nom;
     }
