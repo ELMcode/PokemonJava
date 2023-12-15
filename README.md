@@ -1,6 +1,7 @@
 # Application Pokemon en Java
 
-Jeu de combat de Pokemon version deeeev, 2 dresseurs s'affrontent dans une arène jusqu'à que mort s'en suive !
+Jeu de combat de Pokemon version deeeev
+Deux dresseurs s'affrontent dans une arène jusqu'à que mort s'en suive ! 💀💀💀💀💀
 
 
 ## Prérequis
