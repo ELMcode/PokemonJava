@@ -52,4 +52,18 @@ public class Dresseur implements Arene {
 
     }
 
+    @Override
+    public void debuterCombat() {
+
+    }
+
+    @Override
+    public void tourParTour() {
+
+    }
+
+    @Override
+    public void terminerCombat() {
+
+    }
 }
