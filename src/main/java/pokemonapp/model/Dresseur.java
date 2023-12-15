@@ -6,9 +6,12 @@ public class Dresseur implements Arene {
 
     private Inventaire inventaire;
 
-    public Dresseur(String nom, Inventaire inventaire) {
+    private int equipe;
+
+    public Dresseur(String nom, Inventaire inventaire, int equipe) {
         this.nom = nom;
         this.inventaire = inventaire;
+        this.equipe = equipe;
     }
 
     public Inventaire getInventaire() {
@@ -26,6 +29,15 @@ public class Dresseur implements Arene {
 
     public void setNom(String nom) {
         this.nom = nom;
+    }
+
+
+    public int getEquipe() {
+        return equipe;
+    }
+
+    public void setEquipe(int equipe) {
+        this.equipe = equipe;
     }
 
     public void utiliserInventaire(){
