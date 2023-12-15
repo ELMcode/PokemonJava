@@ -1,6 +1,6 @@
 # Application Pokemon en Java
 
-Jeu de combat de Pokemon, 2 dresseurs s'affrontent dans une arène jusqu'à que mort s'en suive !
+Jeu de combat de Pokemon version deeeev, 2 dresseurs s'affrontent dans une arène jusqu'à que mort s'en suive !
 
 
 ## Prérequis
@@ -13,25 +13,24 @@ Jeu de combat de Pokemon, 2 dresseurs s'affrontent dans une arène jusqu'à que 
 @startuml
 
 Class Dresseur implements Arene{
-- nom : String
+nom : String
+inventaire : Inventaire
+équipe : int
 + utiliserInventaire()
 + getPokemon(): public
 + changerPokemon() : public
 }
 
 Class Pokemon extends Type, Attaque {
-- nom: String
-- hpMax : int
-- hpRestant: int
-+ AttaquerCible() : public
+nom: String
+hPMax : int
+hPRestant : int
+List<Attaque> attaques
++ Attaquer() : public
 }
 
 Class Type {
-- feu : String
-- vol : String
-- eau : String
-- normal : String
-- codeur : String
+nom : String
 + ComportementFeu() : public
 + ComportementEau() : public
 + ComportementVol() : public
@@ -39,9 +38,9 @@ Class Type {
 }
 
 Class Attaque extends Type {
-- nom : String
-- puissanceMax : int
-- puisanceMin : int
+nom : String
+puissanceMax : int
+puisanceMin : int
 
 }
 
@@ -54,8 +53,8 @@ Interface Arene{
 
 
 Class Inventaire {
-- nbPokemon : int
-- nbPokeball : int
+nbPokemon : int
+nbPokeball : int
 + voirHpRestantPokemons : public
 }
 
@@ -66,8 +65,9 @@ Dresseur o-- Inventaire
 ```
 
 ## Usage
+L'application est en cours de construction. :poop: :construction:
 
-## Contributions
+## Contributions :busts_in_silhouette:
 
 - Amine :busts_in_silhouette:
 - Justine :busts_in_silhouette:
