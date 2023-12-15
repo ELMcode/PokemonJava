@@ -48,10 +48,17 @@ class Dresseur implements Arene {
 
     }
 
+    /**
+     * getRandPokemon select 3 pokemons at random from the complete list, before starting the fight
+     * @throws Exception
+     */
     public void getRandomPokemon() throws  Exception {
 
         ObjectMapper mapper = new ObjectMapper();
-        List<Pokemon> allPokemons = mapper.readValue(new File("../data/Pokemons.json"), new TypeReference<List<Pokemon>>(){});
+        List<Pokemon> allPokemons = mapper.readValue(
+                new File("../data/Pokemons.json"),
+                new TypeReference<List<Pokemon>>(){}
+        );
 
         System.out.println(allPokemons);
     }
